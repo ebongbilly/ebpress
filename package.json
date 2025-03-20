@@ -23,6 +23,9 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "pug": "^3.0.3"
+    "pg": "^8.14.1",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.6"
   }
 }

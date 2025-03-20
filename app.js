@@ -15,11 +15,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/dashboard', (req, res) => {
-    res.render('about', { title: 'Dashboard' });
+    res.render('dashboard', { title: 'Dashboard' });
 });
 
 app.get('/posts', (req, res) => {
-    res.render('about', { title: 'Posts' });
+    res.render('posts', { title: 'Posts' });
 });
 
 app.listen(port, () => {
